@@ -6,9 +6,18 @@
     "modules/*"
   ],
   "scripts": {
-    "start:a1": "lerna run start --scope my-app"
+    "start:a1": "lerna run start --scope my-app",
+    "start:lib": "lerna run watch --parallel",
+    "clean": "lerna clean --yes && lerna run clean && rm -rf node_modules && yarn"
   },
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.0",
+    "@babel/types": "^7.21.2",
+    "babel-plugin-styled-components": "^2.0.7",
     "lerna": "^6.5.1"
   }
 }

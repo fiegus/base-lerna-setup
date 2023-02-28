@@ -1,0 +1,15 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "rootDir": ".",
+        "outDir": "lib",
+        "esModuleInterop": true,
+        "types": [
+            "jest",
+            "node"
+        ]
+    },
+    "exclude": [
+        "lib"
+    ]
+}

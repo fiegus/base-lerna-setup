@@ -1,5 +1,5 @@
 import React from "react";
 
 export function Test() {
-  return <div>Test component from Core module</div>;
+  return <div>Test component from @my/core</div>;
 }

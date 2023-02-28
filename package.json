@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "modules/*"
+  ],
+  "scripts": {
+    "start:a1": "lerna run start --scope my-app"
+  },
+  "devDependencies": {
+    "lerna": "^6.5.1"
+  }
+}

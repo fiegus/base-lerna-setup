@@ -1,0 +1,18 @@
+{
+  "name": "@pf/core",
+  "version": "1.0.0",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "core": "^1.0.113"
+  }
+}

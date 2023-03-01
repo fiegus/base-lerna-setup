@@ -8,7 +8,7 @@
   "scripts": {
     "start:a1": "lerna run start --scope my-app",
     "start:lib": "lerna run watch --parallel",
-    "clean": "lerna clean --yes && lerna run clean && rm -rf node_modules && yarn"
+    "clean": "lerna clean --yes && rm -rf node_modules && yarn"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.0",

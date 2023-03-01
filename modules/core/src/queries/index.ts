@@ -1,0 +1,1 @@
+export { useTestGet } from "./test";
